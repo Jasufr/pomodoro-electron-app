@@ -12,8 +12,8 @@ const createWindow = () => {
   const { height: workAreaHeight, y: workAreaY } = primaryDisplay.workArea;
 
   const mainWindow = new BrowserWindow({
-    width: 300,
-    height: 985,
+    width: 400,
+    height: 250,
     // height: workAreaHeight,
     x: 0,
     y: 0,
